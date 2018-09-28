@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/categoryButtonActiveWomens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <Button
+        android:id="@+id/categoryButtonActiveMens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a Category"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/categoryButtonCasualMens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casual"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/categoryButtonCasualWomens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Casual"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textMens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Men's"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <TextView
+        android:id="@+id/textWomens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women's"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+
+</android.support.constraint.ConstraintLayout>
